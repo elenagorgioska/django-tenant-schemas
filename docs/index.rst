@@ -2,7 +2,7 @@ Welcome to django-tenant-schemas documentation!
 ===============================================
 This application enables `Django <https://www.djangoproject.com/>`_ powered websites to have multiple tenants via `PostgreSQL schemas <http://www.postgresql.org/docs/9.2/static/ddl-schemas.html>`_. A vital feature for every Software-as-a-Service website.
 
-Django provides currently no simple way to support multiple tenants using the same project instance, even when only the data is different. Because we don't want you running many copies of your project, you'll be able to have:
+Django currently provides no simple way to support multiple tenants using the same project instance, even when only the data is different. Because we don't want you running many copies of your project, you'll be able to have:
 
 * Multiple customers running on the same instance
 * Shared and Tenant-Specific data
